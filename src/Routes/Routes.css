@@ -1,0 +1,128 @@
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.login-container form{
+    background-color: #4A55A2;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    @media screen and (max-width:768px) {
+        width: 90%;
+    }
+}
+
+.login-container form .form-group{
+    display: flex;
+    flex-direction: column;
+    /* font-size: 30px; */
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.login-container form input{
+    display: flex;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    /* border-style: none; */
+    
+}
+
+.login-container form button{
+    /* margin-bottom: 10px;
+    border-radius: 10px;
+    align-items: center; */
+    padding:  10px 25px;
+    appearance: none;
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 20px
+}
+
+.login-container form .to-register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.login-container form .alert{
+    color: red;
+}
+.register-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.register-container form{
+    background-color:#4A55A2;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    color: #fff;
+    @media screen and (max-width:768px) {
+        width: 90%;
+    }
+}
+.register-container form .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.register-container form input{
+    display: flex;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.register-container form button{
+    /* margin-top: 20px;
+    padding:  10px 25px;
+    border-radius: 5px;
+    padding:  10px 25px; */
+    appearance: none;
+    padding:  10px 25px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 20px
+}
+.register-container form .to-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 0px;
+}
+
+

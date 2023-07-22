@@ -1,0 +1,113 @@
+/* Footer container */
+.footer {
+    background-color: #EAB2A0;;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    margin-top: 30px;
+    @media screen and (max-width:768px) {
+      height: auto;
+    }
+  }
+  
+  /* Footer content */
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 100%;
+    @media screen and (max-width:768px) {
+      flex-direction: column;
+    }
+  }
+
+  /* Company info section */
+  .company-info{
+    margin-top: 10px;
+  }
+  .company-info h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .company-info p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+  }
+  
+  /* Social media section */
+  .social-media h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-media ul li {
+    margin-bottom: 5px;
+  }
+  
+  .social-media ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .social-media ul li a:hover {
+    color: #333;
+  }
+  
+  /* Footer bottom */
+  .footer-bottom {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  
+  .footer-links h3{
+    margin: 0;
+  }
+  .footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-links a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    @media screen and (max-width:768px) {
+      flex-direction: column;
+    }
+  }
+  
+  .footer-social-media{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 650px;
+    gap: 20px;
+    @media screen and (max-width:768px) {
+      margin-left: 0px;
+      margin-top: 5px;
+    }
+  }
